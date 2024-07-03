@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Brick-Tools</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <div class="header">
+            <div id="head" class="headerInputs">
+            <!-- <span onclick="toggleNav()"><button class="menuBtn">&#9776;</button></span> -->
+            <div class="title">
+                <h1>Brick-Tools</h1>
+            </div>
+            </div>
+        </div>
+
+        <div class="containerWrapper" id="containerWrapper">
+            <div class="input-field">
+            <div class="container">
+                <div class="content">
+
+                <div class="inlineGrid link">
+                    <a href="https://converter.brick-tools.com" id="converterLink">LEGO Unit Converter</a>
+                    <label class="input-label" for="converterLink" onclick="copyValue(this)">Converter.Brick-Tools.com</label>
+                </div>
+
+                <br>
+
+                <div class="inlineGrid link">
+                    <a href="https://brickcararchive.brick-tools.com" id="carLink">LEGO Car Archive</a>
+                    <label class="input-label" for="carLink" onclick="copyValue(this)">BrickCarArchive.Brick-Tools.com</label>
+                </div>
+
+                
+
+                </div><!-- end content -->
+            </div> <!-- end container -->
+            </div> <!-- end input-field -->
+        </div> <!-- end containerWrapper -->
+
+        <div class="popup">
+            URL Copied
+        </div>
+
+        <script src="script.js" defer></script>
+    </body>
+</html>
